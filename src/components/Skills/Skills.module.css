@@ -1,0 +1,30 @@
+.skillsText {
+  position: relative;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+}
+.skillsText::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  z-index: 1;
+  background: var(--primary-color);
+  width: 50px;
+}
+
+.progressColor {
+  background: var(--primary-color);
+}
+.featureBox {
+  border: 2px solid var(--primary-color);
+  border-radius: 3px;
+  padding: 20px 10px;
+}
+.icon{
+    font-size: 30px;
+    color: var(--primary-color);
+    padding-right: 30px;
+
+}

@@ -11,7 +11,7 @@ import image from "../../images/bannerimg.png"
 
 const Banner = () => {
   return (
-    <section id="home" className={styles.banner}>
+    <div id="home" className={styles.banner}>
       <div className="container">
         <div className="row w-100 vh-100 align-items-center">
           <div className="col-md-7">
@@ -47,7 +47,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
