@@ -6,11 +6,12 @@
   position: fixed;
   top: 0;
   background: transparent;
+  z-index: 1000;
 }
-.logo{
-    font-weight: 600;
+.logo {
+  font-weight: 600;
 }
 
-.logoColor{
-    color: var(--primary-color);
+.logoColor {
+  color: var(--primary-color);
 }

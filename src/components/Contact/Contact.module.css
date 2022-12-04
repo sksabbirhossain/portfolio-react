@@ -1,0 +1,19 @@
+.contactSection {
+  background: var(--section-background);
+}
+.contactText {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 0px;
+  letter-spacing: 2px;
+}
+
+.info {
+  padding: 20px 0;
+}
+
+.icons a {
+  font-size: 20px;
+  margin-right: 15px;
+  color: var(--primary-font-color);
+}

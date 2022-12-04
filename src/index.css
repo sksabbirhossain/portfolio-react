@@ -53,6 +53,10 @@ a{
 }
 
 button,
+input,
+input:focus,
+textarea,
+textarea:focus,
 .btn,
 .btn:focus {
   border: none;
