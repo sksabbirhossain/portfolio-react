@@ -1,0 +1,7 @@
+
+.sliderTitle {
+  padding-bottom: 10px;
+  color: var(--primary-font-color);
+  font-weight: 600;
+  text-transform: capitalize;
+}
