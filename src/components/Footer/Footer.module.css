@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 1px 2px #c4c3c3;
+  background: var(--section-background);
+}
+.footerPrivacy {
+  display: flex;
+  justify-content: end;
+}
+.footerPrivacy a {
+  color: var(--secondary-font-color);
+}
