@@ -1,0 +1,23 @@
+.serviceSection {
+  background: var(--section-background);
+}
+
+.serviceCard {
+  padding: 50px 30px 20px;
+  border-radius: 10px;
+}
+
+.icon{
+    font-size: 30px;
+    color: var(--primary-color);
+    padding-bottom: 30px;
+}
+.title h4{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.viewLink{
+    color: var(--primary-color);
+}

@@ -48,6 +48,9 @@ body {
 section {
   padding: 4rem 0 2rem;
 }
+a{
+  text-decoration: none;
+}
 
 button,
 .btn,
