@@ -11,14 +11,14 @@
 :root {
   --primary-color: #ce3faf;
   --primary-font-color: #181717;
-  --secondary-font-color: rgba(99, 97, 97, 0.356);
+  --secondary-font-color: #363535d5;
+  --white: #ffffff;
   --background: linear-gradient(
     to right,
     rgba(255, 255, 255, 0.356),
     rgba(211, 118, 191, 0.192)
   );
   --secondary-background: #d376bfe1;
-
 }
 body {
   background: var(--background);
@@ -26,8 +26,33 @@ body {
 button,
 .btn,
 .btn:focus {
+  border: none;
   outline: none !important;
   box-shadow: none !important;
+}
+.mainBtn {
+  display: inline-block;
+  padding: 6px 22px;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-size: 16px;
+  border: 1px solid var(--primary-color);
+  transition: all .3s;
+}
+.mainBtn:hover{
+  background: var(--background);
+  color: var(--primary-font-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--primary-font-color);
+}
+p,
+span {
+  color: var(--secondary-font-color);
 }
 
 .nav-link {

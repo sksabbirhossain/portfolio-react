@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <nav class={`navbar navbar-expand-lg ${styles.mainHeader}`}>
       <div class="container">
-        <a class="navbar-brand" href="#home">
-          StarSk<span>Soft</span>
+        <a class={`navbar-brand ${styles.logo}`} href="#home">
+          StarSk<span className={styles.logoColor}>Soft</span>
         </a>
         <button class="navbar-toggler" type="button">
           <span class="navbar-toggler-icon"></span>

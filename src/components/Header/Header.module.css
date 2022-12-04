@@ -7,3 +7,10 @@
   top: 0;
   background: transparent;
 }
+.logo{
+    font-weight: 600;
+}
+
+.logoColor{
+    color: var(--primary-color);
+}
