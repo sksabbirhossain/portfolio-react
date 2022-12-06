@@ -13,10 +13,10 @@ const Footer = () => {
       <footer className={styles.footer}>
         <div className="container">
           <div className="row">
-            <div className="col-6">
+            <div className="col-md-6">
               <p>Copyright © 2022 StarSkSoft. All rights reserved.</p>
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <div className={styles.footerPrivacy}>
                 <a href="/" className="pe-3">
                   terms and conditions

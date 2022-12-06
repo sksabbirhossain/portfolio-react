@@ -26,7 +26,7 @@ const Contact = () => {
             </div>
             <Form>
               <div className="row">
-                <div className="col-6">
+                <div className="col-md-6">
                   <FormInput
                     label="First Name"
                     type="text"
@@ -34,7 +34,7 @@ const Contact = () => {
                     placeholder="first name"
                   />
                 </div>
-                <div className="col-6">
+                <div className="col-md-6">
                   <FormInput
                     label="Last Name"
                     type="text"
@@ -44,7 +44,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="row">
-                <div className="col-6">
+                <div className="col-md-6">
                   <FormInput
                     label="Email"
                     type="email"
@@ -52,7 +52,7 @@ const Contact = () => {
                     placeholder="email address"
                   />
                 </div>
-                <div className="col-6">
+                <div className="col-md-6">
                   <FormInput
                     label="Phone Number"
                     type="text"
@@ -61,8 +61,8 @@ const Contact = () => {
                   />
                 </div>
               </div>
-              <div class="mb-3">
-                <label htmlFor="message" class={`form-label`}>
+              <div className="mb-3">
+                <label htmlFor="message" className={`form-label`}>
                   Message
                 </label>
                 <textarea name="" rows="4" className="form-control"></textarea>
@@ -90,16 +90,32 @@ const Contact = () => {
             <div className="">
               <h3 className={styles.contactText}>Follow Us</h3>
               <div className={styles.icons}>
-                <a href="/">
-                  <FaFacebook />
-                </a>
-                <a href="/">
+                <a
+                  href="https://www.linkedin.com/in/sk-sabbir-hossain/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaLinkedin />
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/sksabbirhossain"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaGithub />
                 </a>
-                <a href="/">
+                <a
+                  href="https://www.facebook.com/sksabbirhossain4"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaFacebook />
+                </a>
+                <a
+                  href="https://www.instagram.com/sk.sabbir.hossain/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaInstagram />
                 </a>
               </div>

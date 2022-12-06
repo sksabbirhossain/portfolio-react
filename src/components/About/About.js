@@ -26,14 +26,15 @@ const About = () => {
               <p>
                 Web developer, with extensive knowledge and years of experience,
                 working in web technologies and ui / ux design delivering
-                quality work. Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Sapiente illum, et maiores quos voluptatem ad
-                error perferendis sed ab! Error eius voluptatum minus? Quis
-                magni laudantium, dolorum totam ipsam nesciunt.
+                quality work. I design and develop services for customers of all
+                sizes, specializing in creating stylish, modern websites, web
+                services and online stores. My passion is to design digital user
+                experiences through the bold interface and meaningful
+                interactions. Check out my Portfolio
               </p>
               <div className="row pt-4">
                 <div className="col">
-                  <h1 className="fw-bold">08+</h1>
+                  <h1 className="fw-bold">03+</h1>
                   <p>years</p>
                   <span>Experience</span>
                 </div>
@@ -43,7 +44,7 @@ const About = () => {
                   <span>Projects</span>
                 </div>
                 <div className="col">
-                  <h1 className="fw-bold">05+</h1>
+                  <h1 className="fw-bold">02+</h1>
                   <p>Companies</p>
                   <span>Worked</span>
                 </div>

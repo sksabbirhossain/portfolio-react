@@ -15,11 +15,11 @@ const Skills = () => {
             <div className="">
               <h5 className={styles.skillsText}>My Skills</h5>
             </div>
-            <div class="mt-4">
-              <h6 class="dark-color">HTML5</h6>
-              <div class="progress" style={{ height: "13px" }}>
+            <div className="mt-4">
+              <h6 className="dark-color">HTML5</h6>
+              <div className="progress" style={{ height: "13px" }}>
                 <div
-                  class={`progress-bar ${styles.progressColor}`}
+                  className={`progress-bar ${styles.progressColor}`}
                   role="progressbar"
                   style={{ width: "85%" }}
                 >
@@ -27,11 +27,11 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div class="my-3">
-              <h6 class="dark-color">CSS3</h6>
-              <div class="progress" style={{ height: "13px" }}>
+            <div className="my-3">
+              <h6 className="dark-color">CSS3</h6>
+              <div className="progress" style={{ height: "13px" }}>
                 <div
-                  class={`progress-bar ${styles.progressColor}`}
+                  className={`progress-bar ${styles.progressColor}`}
                   role="progressbar"
                   style={{ width: "60%" }}
                 >
@@ -39,11 +39,11 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div class="my-3">
-              <h6 class="dark-color">BOOTSTRAP</h6>
-              <div class="progress" style={{ height: "13px" }}>
+            <div className="my-3">
+              <h6 className="dark-color">BOOTSTRAP</h6>
+              <div className="progress" style={{ height: "13px" }}>
                 <div
-                  class={`progress-bar ${styles.progressColor}`}
+                  className={`progress-bar ${styles.progressColor}`}
                   role="progressbar"
                   style={{ width: "95%" }}
                 >
@@ -51,11 +51,11 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div class="my-3">
-              <h6 class="dark-color">JAVASCRIPT</h6>
-              <div class="progress" style={{ height: "13px" }}>
+            <div className="my-3">
+              <h6 className="dark-color">JAVASCRIPT</h6>
+              <div className="progress" style={{ height: "13px" }}>
                 <div
-                  class={`progress-bar ${styles.progressColor}`}
+                  className={`progress-bar ${styles.progressColor}`}
                   role="progressbar"
                   style={{ width: "70%" }}
                 >
@@ -63,11 +63,11 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div class="mt-2">
-              <h6 class="dark-color">REACT JS</h6>
-              <div class="progress" style={{ height: "13px" }}>
+            <div className="mt-2">
+              <h6 className="dark-color">REACT JS</h6>
+              <div className="progress" style={{ height: "13px" }}>
                 <div
-                  class={`progress-bar ${styles.progressColor}`}
+                  className={`progress-bar ${styles.progressColor}`}
                   role="progressbar"
                   style={{ width: "50%" }}
                 >
@@ -78,51 +78,51 @@ const Skills = () => {
           </div>
           <div className="col-md-6">
             <h5 className={`${styles.skillsText} pt-4`}>feature</h5>
-            <div class="row">
-              <div class="col-md-6 py-3">
+            <div className="row">
+              <div className="col-md-6 py-3">
                 <div
-                  class={`${styles.featureBox} d-flex justify-content-center align-items-center`}
+                  className={`${styles.featureBox} d-flex justify-content-center align-items-center`}
                 >
-                  <div class={styles.icon}>
+                  <div className={styles.icon}>
                     <FaDotCircle />
                   </div>
-                  <div class="media-body">
+                  <div className="media-body">
                     <h5 className="m-0 ">80 Albumes Listened</h5>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 py-3">
+              <div className="col-md-6 py-3">
                 <div
-                  class={`${styles.featureBox} d-flex justify-content-center align-items-center`}
+                  className={`${styles.featureBox} d-flex justify-content-center align-items-center`}
                 >
-                  <div class={styles.icon}>
+                  <div className={styles.icon}>
                     <FaAward />
                   </div>
-                  <div class="media-body">
+                  <div className="media-body">
                     <h5 className="m-0 ">15 Awards Won</h5>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 py-3">
+              <div className="col-md-6 py-3">
                 <div
-                  class={`${styles.featureBox} d-flex justify-content-center align-items-center`}
+                  className={`${styles.featureBox} d-flex justify-content-center align-items-center`}
                 >
-                  <div class={styles.icon}>
+                  <div className={styles.icon}>
                     <FaCoffee />
                   </div>
-                  <div class="media-body">
+                  <div className="media-body">
                     <h5 className="m-0 ">1 000 Cups of coffee</h5>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 py-3">
+              <div className="col-md-6 py-3">
                 <div
-                  class={`${styles.featureBox} d-flex justify-content-center align-items-center`}
+                  className={`${styles.featureBox} d-flex justify-content-center align-items-center`}
                 >
-                  <div class={styles.icon}>
+                  <div className={styles.icon}>
                     <FaFlag />
                   </div>
-                  <div class="media-body">
+                  <div className="media-body">
                     <h5 className="m-0 ">10 Countries Visited</h5>
                   </div>
                 </div>

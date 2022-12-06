@@ -10,8 +10,17 @@
 }
 .logo {
   font-weight: 600;
+  color: var(--primary-font-color);
 }
 
 .logoColor {
   color: var(--primary-color);
+}
+.mobileMenu {
+  display: inline-block !important;
+  background: var(--secondary-background);
+  width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+  text-align: center;
 }

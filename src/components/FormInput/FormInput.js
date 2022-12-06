@@ -1,13 +1,16 @@
 import React from "react";
-import styles from "./FormInput.module.css"
+import styles from "./FormInput.module.css";
 
-const FormInput = ({label, ...rest}) => {
+const FormInput = ({ label, ...rest }) => {
   return (
-    <div class="mb-3">
-      <label htmlFor="exampleInputPassword1" class={`form-label ${styles.label}`}>
+    <div className="mb-3">
+      <label
+        htmlFor="exampleInputPassword1"
+        className={`form-label ${styles.label}`}
+      >
         {label}
       </label>
-      <input {...rest} class="form-control"/>
+      <input {...rest} className="form-control" />
     </div>
   );
 };

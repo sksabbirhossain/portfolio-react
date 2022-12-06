@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { FaBeer, FaMoon, FaSun } from "react-icons/fa";
+import { FaAlignRight, FaBeer, FaMoon, FaSun } from "react-icons/fa";
 import styles from "./Header.module.css";
 
 const Header = () => {
-  const [theme, setTheme] = useState(false);
+  const [theme, setTheme] = useState("light-theme");
   const [fiexdMenu, setFiexdMenu] = useState(false);
+  const [mobileMenu, setMobileMenu] = useState(true);
+
+  //fiexd menu
   useEffect(() => {
     window.addEventListener("scroll", function () {
       if (window.scrollY >= 60) {
@@ -14,6 +17,19 @@ const Header = () => {
       }
     });
   }, []);
+
+  // change theme function
+  const themeToggle = () => {
+    if (theme === "light-theme") {
+      setTheme("dark-theme");
+    } else {
+      setTheme("light-theme");
+    }
+  };
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+
   return (
     <nav
       className={
@@ -26,10 +42,18 @@ const Header = () => {
         <a className={`navbar-brand ${styles.logo}`} href="#home">
           StarSk<span className={styles.logoColor}>Soft</span>
         </a>
-        <button className="navbar-toggler" type="button">
-          <span className="navbar-toggler-icon"></span>
+        <button
+          className="navbar-toggler"
+          type="button"
+          onClick={() => setMobileMenu(!mobileMenu)}
+        >
+          {mobileMenu ? <><span> <FaAlignRight/></span></>: "X"}
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+          className={`collapse navbar-collapse ${
+            mobileMenu ? "" : styles.mobileMenu
+          }`}
+        >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link" href="#home">
@@ -61,8 +85,8 @@ const Header = () => {
                 Contactme
               </a>
             </li>
-            <li className="nav-item " onClick={() => setTheme(!theme)}>
-              {theme ? (
+            <li className="nav-item " onClick={() => themeToggle()}>
+              {theme === "light-theme" ? (
                 <>
                   <a className="nav-link active" href="#light">
                     <FaSun />

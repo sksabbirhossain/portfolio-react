@@ -14,3 +14,15 @@
 .footerPrivacy a {
   color: var(--secondary-font-color);
 }
+
+@media (max-width: 576px) { 
+  .footer {
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .footerPrivacy {
+    display: flex;
+    justify-content: center;
+  }
+ }

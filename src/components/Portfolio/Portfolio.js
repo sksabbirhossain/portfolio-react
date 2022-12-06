@@ -5,9 +5,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import slider1 from "../../images/slider/slider1.png";
-// import slider2 from "../../images/slider/slider2.png";
-// import slider3 from "../../images/slider/slider3.png";
 import styles from "./Portfolio.module.css";
 
 const Portfolio = () => {
@@ -75,7 +72,7 @@ const Portfolio = () => {
                 <div className="col-md-6">
                   <div className="">
                     <img
-                      src="https://cdn.dribbble.com/users/1250068/screenshots/9174002/media/5cf2aefe878528cb59c57b5f91f70ed6.png?compress=1&resize=400x300&vertical=top"
+                      src="https://media.istockphoto.com/vectors/tell-a-friend-vector-website-template-web-page-and-landing-page-for-vector-id1138225247?k=20&m=1138225247&s=612x612&w=0&h=PfSzqOhVxVau8FAKTMod_JXWo9sEeXaTHbT6YDJz4Qs="
                       alt=""
                       className="img-fluid rounded"
                     />
