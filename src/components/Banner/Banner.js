@@ -6,7 +6,6 @@ import {
   FaInstagram,
   FaLinkedin,
 } from "react-icons/fa";
-import image from "../../images/bannerimg.png";
 import styles from "./Banner.module.css";
 
 const Banner = () => {
@@ -54,9 +53,11 @@ const Banner = () => {
                   knowledge, producing <br /> quality work.
                 </span>
                 <div className="mt-3">
-                  <button className="mainBtn">
-                    Download CV <FaArrowRight />
-                  </button>
+                  <a href="/Resume.pdf" download="/Resume.pdf">
+                    <button className="mainBtn">
+                      Download CV <FaArrowRight />
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>

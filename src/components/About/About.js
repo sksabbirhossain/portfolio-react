@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowRight, FaDownload } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import styles from "./About.module.css";
 
 const About = () => {
@@ -50,9 +50,11 @@ const About = () => {
                 </div>
               </div>
               <div className="pt-4">
-                <button className="mainBtn">
-                  Download CV <FaArrowRight />
-                </button>
+                <a href="/Resume.pdf" download="/Resume.pdf">
+                  <button className="mainBtn">
+                    Download CV <FaArrowRight />
+                  </button>
+                </a>
               </div>
             </div>
           </div>
