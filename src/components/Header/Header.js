@@ -47,7 +47,16 @@ const Header = () => {
           type="button"
           onClick={() => setMobileMenu(!mobileMenu)}
         >
-          {mobileMenu ? <><span> <FaAlignRight/></span></>: "X"}
+          {mobileMenu ? (
+            <>
+              <span>
+                {" "}
+                <FaAlignRight />
+              </span>
+            </>
+          ) : (
+            "X"
+          )}
         </button>
         <div
           className={`collapse navbar-collapse ${
@@ -76,8 +85,8 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#portfolio">
-                Portfolio
+              <a className="nav-link" href="#projects">
+                Projects
               </a>
             </li>
             <li className="nav-item">

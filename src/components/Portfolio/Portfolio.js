@@ -9,10 +9,10 @@ import styles from "./Portfolio.module.css";
 
 const Portfolio = () => {
   return (
-    <section id="portfolio">
+    <section id="projects">
       <div className="container">
         <div className="heading">
-          <h2>Portfolio</h2>
+          <h2>Projects</h2>
           <span>Most recent Work</span>
         </div>
       </div>

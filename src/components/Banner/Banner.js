@@ -55,7 +55,7 @@ const Banner = () => {
                 <div className="mt-3">
                   <a href="/Resume.pdf" download="/Resume.pdf">
                     <button className="mainBtn">
-                      Download CV <FaArrowRight />
+                      Download Resume <FaArrowRight />
                     </button>
                   </a>
                 </div>

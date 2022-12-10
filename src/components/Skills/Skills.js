@@ -99,7 +99,7 @@ const Skills = () => {
                     <FaAward />
                   </div>
                   <div className="media-body">
-                    <h5 className="m-0 ">15 Awards Won</h5>
+                    <h5 className="m-0 ">01 Awards Won</h5>
                   </div>
                 </div>
               </div>
@@ -123,7 +123,7 @@ const Skills = () => {
                     <FaFlag />
                   </div>
                   <div className="media-body">
-                    <h5 className="m-0 ">10 Countries Visited</h5>
+                    <h5 className="m-0 ">01 Countries Visited</h5>
                   </div>
                 </div>
               </div>
