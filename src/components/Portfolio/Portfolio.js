@@ -103,6 +103,44 @@ const Portfolio = () => {
             </div>
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className={`${styles.sliderItems}`}>
+            <div className="container">
+              <div className="row d-flex align-items-center">
+                <div className="col-md-6">
+                  <div className="">
+                    <img
+                      src="https://res.cloudinary.com/practicaldev/image/fetch/s--GKC3Kn1n--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/oc1gsf9vzdvntv3nec7z.png"
+                      alt=""
+                      className="img-fluid rounded"
+                    />
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className=" pt-4 pt-md-0">
+                    <h4 className={styles.sliderTitle}>
+                      IQguru Quiz - Quiz Applation
+                    </h4>
+                    <p>
+                      This is a quiz Applation. reactjs is used to create Client
+                      Side. Here you can find many quiz categories. If you can
+                      select a category then you can see some question and you
+                      can give the answer.
+                    </p>
+                    <div className="mt-4">
+                      <a
+                        href="https://e-learning-91ee1.web.app/"
+                        className="mainBtn"
+                      >
+                        View <FaArrowRight />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </section>
   );
