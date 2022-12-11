@@ -41,9 +41,9 @@ const Header = () => {
       }
     >
       <div className="container">
-        <a className={`navbar-brand ${styles.logo}`} href="#home">
+        <HashLink className={`navbar-brand ${styles.logo}`} to="#home">
           StarSk<span className={styles.logoColor}>Soft</span>
-        </a>
+        </HashLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -67,7 +67,7 @@ const Header = () => {
         >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <HashLink className="nav-link" to="#home">
+              <HashLink className="nav-link" to="/#home">
                 Home
               </HashLink>
             </li>
