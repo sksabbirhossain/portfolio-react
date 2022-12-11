@@ -8,7 +8,7 @@ import {
   FaInstagram,
   FaLinkedin,
 } from "react-icons/fa";
-import FormInput from "../FormInput/FormInput";
+import FormInput from "../../../components/FormInput/FormInput";
 import styles from "./Contact.module.css";
 
 const Contact = () => {

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaAlignRight, FaBeer, FaMoon, FaSun } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import styles from "./Header.module.css";
 
 const Header = () => {
@@ -65,34 +67,39 @@ const Header = () => {
         >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="#home">
+              <HashLink className="nav-link" to="#home">
                 Home
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">
+              <HashLink className="nav-link" to="/#about">
                 About
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#skills">
+              <HashLink className="nav-link" to="/#skills">
                 Skills
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#services">
+              <HashLink className="nav-link" to="/#services">
                 Services
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#projects">
+              <HashLink className="nav-link" to="/#projects">
                 Projects
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contactme">
+              <HashLink className="nav-link" to="/#contactme">
                 Contactme
-              </a>
+              </HashLink>
+            </li>
+            <li className="nav-item">
+              <HashLink className="nav-link" to="/blogs">
+                Blogs
+              </HashLink>
             </li>
             <li className="nav-item " onClick={() => themeToggle()}>
               {theme === "light-theme" ? (
