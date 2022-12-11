@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "title": "Daily Food - food dalivery services",
+    "details": "I am providing food dalivery services. I cook all my food  at my home. I try to keep my diet  very good . i also deliver the ordered food the order's home. and i didn't  charge extra for that.",
+    "list": [
+      "here are many food delivery services. and users can also add services. if you visit this website. at fast, you see a beautiful slider. you can also navigate other pages.",
+      "This website uses react.js and express js to used to manage servers. also, used react-router-dom for routing. design all pages by bootstrap 5. for user authentication used google firebase.",
+      "Here you will find many food items. and if you click on a food item's view details button you can full description. and if you click any food items picture then you see this picture full screen."
+    ],
+    "live_website": "https://daily-food-1dafd.web.app/",
+    "code_link": "https://github.com/sksabbirhossain/daily-food-clint",
+    "thumbnail": "https://3.bp.blogspot.com/-Y6zqP3WOsCg/XGtM0MPnrdI/AAAAAAAAB6M/fciR0TWw3q4ZxNdJmvGie1rfqZl_ZoxWgCEwYBhgL/s1600/Healthy-eating--Importance-of-food-and-nutrition-in-our-daily-life.jpg",
+    "img": [
+      "https://i.ibb.co/sW6b64L/daily-food.png",
+      "https://i.ibb.co/qYXMK4H/screencapture-daily-food-1dafd-web-app-services-2022-12-11-20-04-12.png",
+      "https://i.ibb.co/7bRYTs9/dailyfood-2.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "E-Learning - for build your knowlage",
+    "details": "reactjs is used to create Client Side. and express js to used to Server Side. and used react-bootstrap only for the header. also, used react-router-dom(v6) for routing. design all pages by bootstrap 5.",
+    "list": [
+      "This is a react Learning Application.",
+      "reactjs is used to create Client Side. and express js to used to Server Side. and used react-bootstrap only for the header. also, used react-router-dom(v6) for routing. design all pages by bootstrap 5.",
+      "Here you will find many Courses. and if you click on a Course, you can see manny course categories. if you click any category then you can see this category details. and you can this.",
+      "for managing users to used firebase authentication. here you can create an account by email, google, and GitHub account. and you see also the logout button. and also you will log in to your account."
+    ],
+    "live_website": "https://e-learning-91ee1.web.app/",
+    "code_link": "https://github.com/sksabbirhossain/e-learning-frontend",
+    "thumbnail": "https://media.istockphoto.com/vectors/tell-a-friend-vector-website-template-web-page-and-landing-page-for-vector-id1138225247?k=20&m=1138225247&s=612x612&w=0&h=PfSzqOhVxVau8FAKTMod_JXWo9sEeXaTHbT6YDJz4Qs=",
+    "img": [
+      "https://i.ibb.co/njmPFwG/e-learning.png",
+      "https://i.ibb.co/n8HbYjn/e-learning2.png",
+      "https://i.ibb.co/RNPs1jg/e-learning3.png"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "IQguru Quiz - Quiz Applation",
+    "details": "This is a quiz Applation. reactjs is used to create Client Side. Here you can find many quiz categories. If you can select a category then you can see some question and you can give the answer.",
+    "list": [
+      "This is a react quiz Application called IQguru.",
+      "reactjs is used to create Client Side. and express js to used to Server Side. also, used react-router-dom(v6) for routing. design all pages by bootstrap 5.",
+      "Here you will find many Quiz categories. and if you click on a Quiz, you can see manny question on this quiz.",
+      "here you don't need to create account for quiz question.",
+      "if you visite quiz page you can answer for this question."
+    ],
+    "live_website": "https://elegant-narwhal-f7a7d1.netlify.app/",
+    "code_link": "https://github.com/sksabbirhossain/iqguru-quiz",
+    "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--GKC3Kn1n--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/oc1gsf9vzdvntv3nec7z.png",
+    "img": [
+      "https://i.ibb.co/ryTRJpJ/iqguru.png",
+      "https://i.ibb.co/pzxYy86/iqguru2.png",
+      "https://i.ibb.co/Mnhk7fH/iq3.png"
+    ]
+  }
+]

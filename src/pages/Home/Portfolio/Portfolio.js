@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import { Autoplay, Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -8,6 +9,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "./Portfolio.module.css";
 
 const Portfolio = () => {
+  const [projects, setProjects] = useState([]);
+  useEffect(() => {
+    fetch("projects.json")
+      .then((res) => res.json())
+      .then((data) => setProjects(data));
+  }, []);
   return (
     <section id="projects">
       <div className="container">
@@ -27,120 +34,40 @@ const Portfolio = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <div className={`${styles.sliderItems}`}>
-            <div className="container">
-              <div className="row d-flex align-items-center">
-                <div className="col-md-6">
-                  <div className="">
-                    <img
-                      src="https://cdn.dribbble.com/users/1250068/screenshots/9174002/media/5cf2aefe878528cb59c57b5f91f70ed6.png?compress=1&resize=400x300&vertical=top"
-                      alt=""
-                      className="img-fluid rounded"
-                    />
+        {projects?.map((project) => (
+          <SwiperSlide key={project.id}>
+            <div className={`${styles.sliderItems}`}>
+              <div className="container">
+                <div className="row d-flex align-items-center">
+                  <div className="col-md-6">
+                    <div className="">
+                      <img
+                        src={project.thumbnail}
+                        alt=""
+                        className="img-fluid rounded"
+                      />
+                    </div>
                   </div>
-                </div>
-                <div className="col-md-6">
-                  <div className=" pt-4 pt-md-0">
-                    <h4 className={styles.sliderTitle}>
-                      Daily Food - food dalivery services
-                    </h4>
-                    <p>
-                      I am providing food dalivery services. I cook all my food
-                      at my home. I try to keep my diet very good . i also
-                      deliver the ordered food the order's home. and i didn't
-                      charge extra for that.
-                    </p>
-                    <div className="mt-4">
-                      <a
-                        href="https://daily-food-1dafd.web.app/"
-                        className="mainBtn"
-                      >
-                        View <FaArrowRight />
-                      </a>
+                  <div className="col-md-6">
+                    <div className=" pt-4 pt-md-0">
+                      <h4 className={styles.sliderTitle}>
+                        {project.title}
+                      </h4>
+                      <p>
+                        {project.details}
+                      </p>
+                      <div className="mt-4">
+                        <Link to={`/project/${project.id}`} className="mainBtn">
+                          View <FaArrowRight />
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={`${styles.sliderItems}`}>
-            <div className="container">
-              <div className="row d-flex align-items-center">
-                <div className="col-md-6">
-                  <div className="">
-                    <img
-                      src="https://media.istockphoto.com/vectors/tell-a-friend-vector-website-template-web-page-and-landing-page-for-vector-id1138225247?k=20&m=1138225247&s=612x612&w=0&h=PfSzqOhVxVau8FAKTMod_JXWo9sEeXaTHbT6YDJz4Qs="
-                      alt=""
-                      className="img-fluid rounded"
-                    />
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className=" pt-4 pt-md-0">
-                    <h4 className={styles.sliderTitle}>
-                      E-Learning - for build your knowlage
-                    </h4>
-                    <p>
-                      reactjs is used to create Client Side. and express js to
-                      used to Server Side. and used react-bootstrap only for the
-                      header. also, used react-router-dom(v6) for routing.
-                      design all pages by bootstrap 5.
-                    </p>
-                    <div className="mt-4">
-                      <a
-                        href="https://e-learning-91ee1.web.app/"
-                        className="mainBtn"
-                      >
-                        View <FaArrowRight />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={`${styles.sliderItems}`}>
-            <div className="container">
-              <div className="row d-flex align-items-center">
-                <div className="col-md-6">
-                  <div className="">
-                    <img
-                      src="https://res.cloudinary.com/practicaldev/image/fetch/s--GKC3Kn1n--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/oc1gsf9vzdvntv3nec7z.png"
-                      alt=""
-                      className="img-fluid rounded"
-                    />
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className=" pt-4 pt-md-0">
-                    <h4 className={styles.sliderTitle}>
-                      IQguru Quiz - Quiz Applation
-                    </h4>
-                    <p>
-                      This is a quiz Applation. reactjs is used to create Client
-                      Side. Here you can find many quiz categories. If you can
-                      select a category then you can see some question and you
-                      can give the answer.
-                    </p>
-                    <div className="mt-4">
-                      <a
-                        href="https://elegant-narwhal-f7a7d1.netlify.app/"
-                        className="mainBtn"
-                      >
-                        View <FaArrowRight />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </section>
   );
