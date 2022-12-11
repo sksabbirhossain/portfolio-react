@@ -6,7 +6,10 @@
     "list": [
       "here are many food delivery services. and users can also add services. if you visit this website. at fast, you see a beautiful slider. you can also navigate other pages.",
       "This website uses react.js and express js to used to manage servers. also, used react-router-dom for routing. design all pages by bootstrap 5. for user authentication used google firebase.",
-      "Here you will find many food items. and if you click on a food item's view details button you can full description. and if you click any food items picture then you see this picture full screen."
+      "Here you will find many food items. and if you click on a food item's view details button you can full description. and if you click any food items picture then you see this picture full screen.",
+      "Add services page you can add a service. but if you want to add a service you must be fast login or sign up.",
+      "for managing users to used firebase authentication. here you can create an account by email password, and google account. also you will login and logOut your account.",
+      "the Blog page mainly showed some questions and answers. if you just click the blog button then you will see that."
     ],
     "live_website": "https://daily-food-1dafd.web.app/",
     "code_link": "https://github.com/sksabbirhossain/daily-food-clint",
@@ -25,7 +28,9 @@
       "This is a react Learning Application.",
       "reactjs is used to create Client Side. and express js to used to Server Side. and used react-bootstrap only for the header. also, used react-router-dom(v6) for routing. design all pages by bootstrap 5.",
       "Here you will find many Courses. and if you click on a Course, you can see manny course categories. if you click any category then you can see this category details. and you can this.",
-      "for managing users to used firebase authentication. here you can create an account by email, google, and GitHub account. and you see also the logout button. and also you will log in to your account."
+      "for managing users to used firebase authentication. here you can create an account by email, google, and GitHub account. and you see also the logout button. and also you will log in to your account.",
+      "here you will see some pages in the header. you can also see the course link. when you click the courses button then you will see all courses.",
+      "the Blog page mainly showed some questions and answers. if you just click the blog button then you will see that."
     ],
     "live_website": "https://e-learning-91ee1.web.app/",
     "code_link": "https://github.com/sksabbirhossain/e-learning-frontend",

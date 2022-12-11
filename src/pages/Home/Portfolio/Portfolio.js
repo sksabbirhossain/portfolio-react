@@ -56,9 +56,9 @@ const Portfolio = () => {
                       <p>
                         {project.details}
                       </p>
-                      <div className="mt-4">
+                      <div className="mt-3 mb-5 mb-sm-0">
                         <Link to={`/project/${project.id}`} className="mainBtn">
-                          View <FaArrowRight />
+                          Details <FaArrowRight />
                         </Link>
                       </div>
                     </div>
