@@ -44,7 +44,7 @@ const Contact = () => {
           <span>Say Hello</span>
         </div>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-right">
             <div className="pb-4">
               <h3 className={styles.contactText}>Just say Hello !</h3>
               <span>Let us kow more about me !</span>
@@ -94,7 +94,7 @@ const Contact = () => {
               </div>
             </form>
           </div>
-          <div className="col-md-4 offset-md-2 d-flex flex-column justify-content-center">
+          <div className="col-md-4 offset-md-2 d-flex flex-column justify-content-center" data-aos="fade-left">
             <div className=" pt-4 pt-md-0">
               <h3 className={styles.contactText}>
                 Contact <br /> Information

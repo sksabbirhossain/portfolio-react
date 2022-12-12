@@ -11,7 +11,7 @@ const Services = () => {
           <span>About my services</span>
         </div>
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-right">
             <div className={`${styles.serviceCard} shadow mb-4 mb-md-0`}>
               <div className={styles.icon}>
                 <FaColumns />
@@ -27,7 +27,7 @@ const Services = () => {
               </a>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-up">
             <div className={`${styles.serviceCard} shadow mb-4 mb-md-0`}>
               <div className={styles.icon}>
                 <FaCode />
@@ -43,7 +43,7 @@ const Services = () => {
               </a>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-left">
             <div className={`${styles.serviceCard} shadow`}>
               <div className={styles.icon}>
                 <FaPencilAlt />

@@ -11,7 +11,7 @@ const Skills = () => {
           <span>My technical level</span>
         </div>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-right">
             <div className="">
               <h5 className={styles.skillsText}>My Skills</h5>
             </div>
@@ -79,7 +79,7 @@ const Skills = () => {
           <div className="col-md-6">
             <h5 className={`${styles.skillsText} pt-4`}>feature</h5>
             <div className="row">
-              <div className="col-md-6 py-3">
+              <div className="col-md-6 py-3" data-aos="fade-left">
                 <div
                   className={`${styles.featureBox} d-flex justify-content-center align-items-center`}
                 >
@@ -91,7 +91,7 @@ const Skills = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 py-3">
+              <div className="col-md-6 py-3" data-aos="fade-left">
                 <div
                   className={`${styles.featureBox} d-flex justify-content-center align-items-center`}
                 >
@@ -103,7 +103,7 @@ const Skills = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 py-3">
+              <div className="col-md-6 py-3" data-aos="fade-left">
                 <div
                   className={`${styles.featureBox} d-flex justify-content-center align-items-center`}
                 >
@@ -115,7 +115,7 @@ const Skills = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 py-3">
+              <div className="col-md-6 py-3" data-aos="fade-left">
                 <div
                   className={`${styles.featureBox} d-flex justify-content-center align-items-center`}
                 >

@@ -12,7 +12,10 @@ const About = () => {
         </div>
         <div className="row">
           <div className="col-md-6">
-            <div className=" d-flex align-items-center h-100 w-100">
+            <div
+              className=" d-flex align-items-center h-100 w-100"
+              data-aos="fade-right"
+            >
               <img
                 src="https://cdn.computercareers.org/wp-content/uploads/web-development.jpg"
                 className="img-fluid rounded"
@@ -22,15 +25,15 @@ const About = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="aboutText mt-5 mt-md-0">
+            <div className="aboutText mt-5 mt-md-0" data-aos="fade-left">
               <p>
-                Web development, with extensive knowledge and years of experience,
-                working in web technologies and ui / ux design delivering
-                quality work. I design and develop services for customers of all
-                sizes, specializing in creating stylish, modern websites, web
-                services and online stores. My passion is to design digital user
-                experiences through the bold interface and meaningful
-                interactions. Check out my Portfolio.
+                Web development, with extensive knowledge and years of
+                experience, working in web technologies and ui / ux design
+                delivering quality work. I design and develop services for
+                customers of all sizes, specializing in creating stylish, modern
+                websites, web services and online stores. My passion is to
+                design digital user experiences through the bold interface and
+                meaningful interactions. Check out my Portfolio.
               </p>
               <div className="row pt-4">
                 <div className="col">

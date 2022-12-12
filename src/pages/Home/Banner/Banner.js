@@ -14,7 +14,7 @@ const Banner = () => {
       <div className="container">
         <div className="row w-100 vh-100 align-items-center">
           <div className="col-md-7">
-            <div className="d-flex align-items-center">
+            <div className="d-flex align-items-center" data-aos="fade-right">
               <div className={`${styles.bannerIcons} pe-5`}>
                 <a
                   href="https://www.linkedin.com/in/sk-sabbir-hossain/"
