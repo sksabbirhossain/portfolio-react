@@ -50,8 +50,8 @@ const Services = () => {
               </div>
               <div className={styles.title}>
                 <h4>
-                  Branding <br />
-                  Designer
+                  Backend <br />
+                  Developer
                 </h4>
               </div>
               <a href="/" className={styles.viewLink}>

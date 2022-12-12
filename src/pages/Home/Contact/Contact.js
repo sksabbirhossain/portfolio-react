@@ -108,7 +108,7 @@ const Contact = () => {
               </p>
             </div>
             <div className="">
-              <h3 className={styles.contactText}>Follow Us</h3>
+              <h3 className={styles.contactText}>Follow Me</h3>
               <div className={styles.icons}>
                 <a
                   href="https://www.linkedin.com/in/sk-sabbir-hossain/"
