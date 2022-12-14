@@ -10,7 +10,6 @@ const Project = () => {
       .then((res) => res.json())
       .then((data) => {
         const result = data.find((p) => p.id == id);
-        console.log(result);
         return setProject(result);
       });
   }, [id]);
@@ -22,9 +21,11 @@ const Project = () => {
         </div>
         <div className="">
           <div className="row">
+            
             <div className="col-md-4">
               <Slider project={project} />
             </div>
+
             <div className="col-md-8">
               <div className=" mt-4 mt-sm-0">
                 <h3>{project.title}</h3>

@@ -9,7 +9,7 @@
 }
 .footerPrivacy {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .footerPrivacy a {
   color: var(--secondary-font-color);
