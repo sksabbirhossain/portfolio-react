@@ -6,7 +6,6 @@ import {
   FaInstagram,
   FaLinkedin,
 } from "react-icons/fa";
-// import banner from "../../../images/banner.png";
 import styles from "./Banner.module.css";
 
 const Banner = () => {
@@ -63,11 +62,6 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-md-5" data-aos="fade-left">
-            <div className="">
-              <img src={banner} className="img-fluid" alt="" />
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
